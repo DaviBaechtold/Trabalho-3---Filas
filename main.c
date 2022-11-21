@@ -1,3 +1,19 @@
+//Davi Baechtold Campos
+//Trabalho 3 - Filas
+
+/*
+Sua  tarefa  será  construir  um  código  capaz de  somar,  item  a  item,  todos os  inteiros  entre  1  e 1.000.000. Existe, pelo menos uma fórmula matemática que pode ser usada para validar o resultado. 
+Contudo, você deverá criar uma fila, armazenar este inteiros nesta fila, depois percorrer  fila somando estes valores. A tarefa é para exercitar o uso de algoritmos, não da matemática.  
+
+Atenção: use a mesma plataforma que usou no Trabalho 1 – pilhas. 
+Seu  objetivo  será  medir  o  tempo  para  inserção  de  1.000.000  milhão  de  inteiros  em  uma estrutura de dados, o tempo para percorrer e somar 1.000.000 de inteiros em uma estrutura de dados, e o  tempo para garantir que um determinado  inteiro  já está na  fila (busca). Finalmente você deverá 
+medir estes tempos percorrendo a fila em dois sentidos. De cima para baixo e de baixo para cima. 
+
+Seu resultado será a média dos tempos gastos para as operações citadas acima em, no mímino 50 operações de cada tipo. As saídas apresentadas devem seguir o seguinte padrão: operação: tempo conforme pode ser visto no exemplo a seguir:  
+
+Preenchimento da Fila: 1.234s 
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
